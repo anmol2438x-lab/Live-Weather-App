@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app {
+    text-align: center;
+    color: #fff;
+}
+
+.search-box {
+    margin: 20px 0;
+}
+
+.search-box input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 8px;
+    background: #ff9800;
+    color: white;
+    cursor: pointer;
+}
+
+.weather-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+}
+
+.weather-card h2 {
+    margin: 10px 0;
+}
+
+.weather-card img {
+    width: 80px;
+    margin: 5px;
+    display: block;
+}
+
+.error {
+    color: yellow;
+    font-weight: bold;
+}
+
+.history {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.history h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.history ul {
+    list-style: none;
+    padding: 0;
+}
+
+.history li {
+    padding: 5px;
+    margin: 3px 0;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.history li:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
